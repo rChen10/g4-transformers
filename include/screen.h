@@ -2,6 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <stdio.h>
+#include <stdlib.h>
 #include "pixel.h"
 
 #ifndef __SCREEN_H__
