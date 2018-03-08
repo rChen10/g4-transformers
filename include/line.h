@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
+#include <math.h>
 
 //#ifndef __SCREEN_H__
 //#define __SCREEN_H__
