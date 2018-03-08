@@ -101,7 +101,7 @@ void line::set_color(pixel p){
 void line::draw(screen& s){
 		int a = 2 * (p1[1]-p0[1]); int b = -2 * (p1[0]-p0[0]);
 
-		if ( abs(p1[0] - p0[0]) >= abs(p1[1] - p0[1]) ){
+		if ( std::abs(p1[0] - p0[0]) >= std::abs(p1[1] - p0[1]) ){
 			if (a > 0)
 				Private::draw_oct1(p0, p1, s, color, a, b);
 			else
